@@ -77,5 +77,4 @@ class Channel:
             print("Youtube is mad at me, killing process...")
             if response.status_code == 403:
                 ic(response.json())
-            print("Sleeping for 24hrs until this can continue")
-            time.sleep(24 * 60 * 60)
+            sys.exit(1)

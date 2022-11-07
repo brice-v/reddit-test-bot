@@ -2,3 +2,4 @@ praw.ini
 config.py
 __pycache__/*
 .vscode/*
+*.db
